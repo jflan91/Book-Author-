@@ -1,0 +1,9 @@
+package justin.springapp.demowebapp.repositories;
+
+import org.springframework.data.repository.CrudRepository;
+
+import justin.springapp.demowebapp.domain.Book;
+
+public interface BookRepository extends CrudRepository<Book, Long>{
+
+}
